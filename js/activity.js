@@ -5,7 +5,10 @@ define(["sugar-web/activity/activity"], function (activity) {
 
 		// Initialize the activity.
 		activity.setup();
-
+		var GoL = document.getElementById("Gol");
+		GoL.onclick = function() {
+			console.log("you clicked me!");
+		}
 	});
 
 });

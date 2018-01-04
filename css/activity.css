@@ -1,3 +1,7 @@
 #main-toolbar #activity-button {
   background-image: url(../activity/activity-icon.svg);
 }
+button{
+  padding: 5px 10px;
+  margin: 3px;
+}
